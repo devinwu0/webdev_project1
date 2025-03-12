@@ -6,7 +6,7 @@ body {
 }
 
 
-/* navigation bar */
+/* navigation bar (universal) */
 nav ul {
   list-style-type: none; 
   padding: 0;
@@ -23,13 +23,13 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 1rem;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 1rem;
   display: block;
 }
 
@@ -37,24 +37,83 @@ nav ul li a:hover {
   background-color: #555;
 }
 
+/* body (universal) */
 
-/* index background */
+h1 {
+  background-color: #599284;
+  color: #e6cde1;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+/* index */
 .index {
   background-color: #ff8473;
   color: #333;
-  padding: 20px;
+  padding: 1rem;
 }
 
-/* resume background */
+.index body {
+  font-family: 'Georgia', sans-serif;
+}
+
+.index img {
+  outline: 5px solid #83571e;
+}
+
+.index iframe {
+  outline: 5px solid #43aa1a;
+}
+
+/* resume */
 .resume {
   background-color: #569ddf;
   color: #444;
-  padding: 20px;
+  padding: 2rem;
+  width: 90%; /* fluid width for layout*/
 }
 
-/* games background */
+.resume h1 {
+  background-color: #a09e49;
+  color: #e6cde1;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.resume img {
+  outline: 5px solid #832d1e;
+}
+
+.resume #interests {
+  background-color: #1e4637;
+  color: #e6cde1;
+}
+
+/* games */
 .games {
   background-color: #e4c68f;
   color: #555;
-  padding: 20px;
+  padding: 2rem;
+  width: 960px; /* fixed width for layout */
+  margin: 0 auto;
 }
+
+.games h1 {
+  background-color: #c470b2;
+  color: #e6cde1;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.games img {
+  outline: 5px solid #89b83e;
+}
+
+.games h2 {
+  background-color: #c470b2;
+  color: #e6cde1;
+}
+
