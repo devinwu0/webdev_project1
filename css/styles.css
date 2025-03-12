@@ -55,7 +55,7 @@ h1 {
 }
 
 .index body {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Georgia', sans-serif; /* native font */
 }
 
 .index img {
