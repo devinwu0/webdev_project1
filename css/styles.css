@@ -86,9 +86,23 @@ h1 {
   outline: 5px solid #832d1e;
 }
 
+.resume #education {
+  background-color: #286337;
+  color: #e6cde1;
+}
+
 .resume #interests {
   background-color: #1e4637;
   color: #e6cde1;
+}
+
+.resume #work {
+  background-color: #274466;
+  color: #e6cde1;
+}
+
+.resume p {
+  font-weight: bold;
 }
 
 /* games */
@@ -117,4 +131,10 @@ h1 {
   background-color: #c470b2;
   color: #e6cde1;
 }
+
+.games #games ul {
+  background-color: #c790d8;
+  color: #ffffff;
+}
+
 
