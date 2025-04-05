@@ -66,6 +66,10 @@ h1 {
   outline: 5px solid #43aa1a; /* youtube link */
 }
 
+.index #video {
+  text-align: center;
+}
+
 /* resume */
 .resume {
   background-color: #8cbbe7;
